@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@400;500;600;700 & display=swap');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 122px;
+    
+}
+header img {
+    max-width: 209px;
+    height: 104px;
+    margin: 9px 19px 9px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 531px;
+    margin: 0px 39px 0px 0px;
+}
+
+nav div{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #777777;
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+}
+
+.container-principal h2{
+    margin-top: 68px;
+    margin-bottom: 82px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    text-align: center;
+    color: #000000;
+}
+
+.container-secundario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 207px;
+}
+
+.container-secundario img:nth-child(1){
+    margin-left: 113px;
+}
+
+.container-secundario img:nth-child(2){
+    margin-right: 113px;
+}
+
+.container-terciario{
+    max-width: 1280px;
+    height: 662px;
+    display: flex;
+    flex-direction: column;
+    background-color: #C2185B;
+    margin-bottom: 163px;   
+    
+}
+
+.container-terciario h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-top: 61px;
+    margin-bottom: 54px;
+    text-align: center;
+}
+
+.container-terciario section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 102px;
+    margin-right: 84px;
+}
+
+.container-terciario div{
+    width: 260px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 22px;
+    height: 80px;
+    padding-left: 10px;
+    padding-top: 18px; 
+}
+
+.container-quarteario{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 116px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container-quarteario section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-quarteario h2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 53px;
+    color: #000000;
+    margin: 0;
+}
+
+.container-quarteario div{
+    width: 403px;
+    height: 99px;
+    left: 127px;
+    top: 2501px;
+    background: #C2185B;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 53px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #C2185B;
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 248px;
+    margin-bottom: 50px;
+}
+
+footer section:nth-child(1) {
+    width: 255px;
+    margin-top: 19px;
+    margin-left: 128px;
+}
+
+footer img{
+    width: 233px;
+    height: 123px;
+}
+
+footer section:nth-child(1) article {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: relative;
+    top: -25px;
+}
+
+footer section:nth-child(2) {
+    width: 104px;
+    margin-top: 56px;
+    margin-bottom: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+footer section:nth-child(3) {
+    width: 246px;
+    margin-top: 56px;
+    margin-bottom: 31px;
+    margin-right: 148PX;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
